@@ -1,0 +1,113 @@
+.topnav {
+  background-color: #034EA2;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #034EA2;
+  color: black;
+  text-decoration: underline;
+  font-size:21px;
+  transition: 0.3s;
+}
+.topnav a:not(:hover) {
+    transition: 0.3s;
+}
+
+.topnav a:active {
+  background-color: #ED1C24;
+  color: white;
+  transition: 0.3s;
+}
+.topnav a:not(:active) {
+    transition: 0.3s;
+}
+
+* {
+     margin:0;
+    box-sizing: border-box;
+}
+
+.forside {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.siste-nyhet {
+    font-size: 30px;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.dato {
+    color: gray;
+}
+
+.dato-b {
+    color: gray;
+}
+
+.overskrift-b{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+    margin: 15px;
+}
+
+
+.lorenskog {
+    margin-bottom: 20px;
+}
+
+.roy {
+        display: flex;
+    justify-content: center;
+}
+
+.tekst {
+    display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+    margin: 15px;
+    font-size: large;
+}
+.stjernen {
+    margin-bottom: 20px;
+}
+
+.overskrift {
+    display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+    margin: 15px;
+}
+
+.ayy {
+    display:flex;
+    justify-content: center;
+}
+
+.seier {
+    display:flex;
+justify-content: center;
+    margin: 15px;
+}

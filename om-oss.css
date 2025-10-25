@@ -1,0 +1,122 @@
+.bluebox {
+    background-color: #034EA2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid;
+    border-image: linear-gradient(90deg, #ED1C24, #034EA2, #ED1C24) 1;
+    animation: borderShift 4s linear infinite;
+}
+
+@keyframes borderShift{
+    0% {
+        border-image-source: linear-gradient(90deg, #ED1C24, #034EA2, #ED1C24);
+    }
+    50% {
+            border-image-source: linear-gradient(90deg, #034EA2, #ED1C24, #034EA2);
+    }
+    100% {
+           border-image-source: linear-gradient(90deg, #ED1C24, #034EA2, #ED1C24); 
+    }
+}
+
+.om-oss {
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height:2.0;
+}
+
+.topnav {
+  background-color: #034EA2;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #034EA2;
+  color: black;
+}
+
+.topnav a:active {
+  background-color: #ED1C24;
+  color: white;
+}
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.vår-historie {
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+    margin: 15px;
+}
+
+.vår-historie .første {
+    margin-bottom: 10px;
+}
+
+
+.vårt-oppdrag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.punkter {
+    display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height:2.0;
+margin-bottom: 20px;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avsnitt {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.credits {
+display: flex;
+justify-content: center;
+gap: 40px;
+padding: 20px;
+}
+
+.creditsboks {
+    background-color:#034EA2;
+    color: white;
+}

@@ -1,0 +1,480 @@
+.topnav {
+  background-color: #034EA2;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #034EA2;
+  color: black;
+}
+
+.topnav a:active {
+  background-color: #ED1C24;
+  color: white;
+}
+
+* {
+     margin:0;
+    box-sizing: border-box;
+}
+
+.joona {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+.mathias {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.keeper-rad {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.backer-rad {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.Kalle {
+           display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+.hakon {
+               display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+.sondre {
+               display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+.daniel {
+               display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+.backer-rad-b {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.herman {
+               display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+
+.gabriel {
+              display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+.oskar {
+              display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+
+.henrik {
+              display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+.løper-rad {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.christian {
+              display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.christian:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.nick {
+                  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.nick:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.magnus {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.magnus:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.mikkel {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.mikkel:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+
+.pontus {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.pontus:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.martin {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.martin:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.stian {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.stian:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.jørgen {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.jørgen:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.leo {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.leo:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.ken {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.ken:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.mathis {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.mathis:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.ryan {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.ryan:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.theodor {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.theodor:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
+
+.blake {
+                     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: gray;    
+  color: white;             
+  padding: 20px;              
+  border-radius: 10px;        
+  width: 300px;               
+  margin: 20px 0 20px 20px;          
+  text-align: left;         
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.3);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.blake:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.6);
+    transform: translateY(-5px);
+}
